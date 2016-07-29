@@ -1,0 +1,30 @@
+{
+  "name": "language-name",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehcode/language-name.git"
+  },
+  "keywords": [
+    "langauges",
+    "language",
+    "i18n",
+    "iso"
+  ],
+  "author": "Ryan Leckey <leckey.ryan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehcode/language-name/issues"
+  },
+  "homepage": "https://github.com/mehcode/language-name#readme",
+  "scripts": {
+    "install": "node generate.js"
+  },
+  "dependencies": {
+    "cldr-data": "^29.0.1",
+    "cldrjs": "^0.4.5",
+    "glob": "^7.0.5"
+  }
+}

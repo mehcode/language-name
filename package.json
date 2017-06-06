@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/mehcode/language-name#readme",
   "scripts": {
-    "install": "node generate.js"
+    "prepublish": "node generate.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "cldr-data": "^30.0.2",
-    "cldrjs": "^0.4.5",
-    "glob": "^7.0.5"
+      "cldrjs": "^0.4.5",
+      "glob": "^7.0.5"
   }
 }

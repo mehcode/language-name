@@ -1,6 +1,6 @@
 {
   "name": "language-name",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "cldr-data": "^30.0.2",
-      "cldrjs": "^0.4.5",
-      "glob": "^7.0.5"
+    "cldrjs": "^0.4.5",
+    "glob": "^7.0.5"
   }
 }
